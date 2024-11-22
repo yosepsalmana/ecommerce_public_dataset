@@ -100,11 +100,6 @@ else:
     plt.tight_layout()
     st.pyplot(fig)
 
-st.write("Ringkasan Dataset Sebelum Filter:")
-st.write(first_problem_df.describe())
-st.write("Data Contoh Sebelum Filter:")
-st.write(first_problem_df.head())
-
 
 ## Visualisasi No.2
 st.header("2. Analisis Kota Customer")
