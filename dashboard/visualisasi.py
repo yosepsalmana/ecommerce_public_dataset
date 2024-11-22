@@ -3,8 +3,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load datasets
-first_final_dataset = pd.read_csv("data_1.csv")
-second_final_dataset = pd.read_csv("data_2.csv")
+first_final_dataset = pd.read_csv("./data_1.csv")
+second_final_dataset = pd.read_csv("./data_2.csv")
 
 
 first_problem_df = (
